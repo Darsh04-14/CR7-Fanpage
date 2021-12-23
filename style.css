@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Libre+Baskerville:ital@1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu;
+  font-weight: 100;
+}
+h5 {
+  text-align: center;
+}
+.navbar {
+  width: 100%;
+  top: 0;
+  font-family: Ubuntu;
+  padding: 1% 0;
+  font-weight: 100;
+  font-size: 18px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  transition: all, 0.5s, ease;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+.logoa {
+  padding-left: 10%;
+}
+
+.navbar ul {
+  padding-right: 10%;
+  transition: all, 0.5s, ease;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #e1d468;
+  text-transform: uppercase;
+}
+
+.navbar ul li a:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #e1d468;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+.scrolling-active {
+  background: white !important;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.4);
+  border-bottom: none;
+}
+
+.scrolling-active ul li a {
+  color: black;
+}
+.scrolling-active ul li a:after {
+  background: black;
+}
+
+.gold-line {
+  border-bottom: 3px solid #e1d468;
+}
+.wrapper {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  border-bottom: 3px solid #e1d468;
+}
+
+.image {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.img2 {
+  width: 30%;
+  height: auto;
+  margin-top: 2%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+}
+.img3 {
+  width: 30%;
+  height: auto;
+  margin: 2% 34.5%;
+  margin-bottom: 0%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+}
+.GOAT {
+  position: relative;
+  padding: 0 10%;
+  bottom: 170px;
+  text-align: center;
+  color: #e1d468;
+  font-family: Cardo;
+  font-size: 50px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 41%;
+  border-bottom: 3px solid #e1d468;
+  margin-bottom: -3%;
+}
+
+.header2 {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 32%;
+  margin-top: -17%;
+  border-bottom: 3px solid #e1d468;
+}
+
+.header3 {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 33%;
+  border-bottom: 3px solid #e1d468;
+  margin-top: 10%;
+}
+.header4 {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 28%;
+  border-bottom: 3px solid #e1d468;
+  margin-top: 10%;
+}
+.header5 {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 38.5%;
+  border-bottom: 3px solid #e1d468;
+  margin-top: 10%;
+  margin-bottom: -3%;
+}
+.header6 {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 46%;
+  border-bottom: 3px solid #e1d468;
+  margin-bottom: -3%;
+}
+.header7 {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+  color: black;
+  position: relative;
+  bottom: 75px;
+  margin: 0 41%;
+  margin-top: 10%;
+  border-bottom: 3px solid #e1d468;
+  margin-bottom: -3%;
+}
+.statboard {
+  display: flex;
+  text-align: center;
+  margin: 0 10%;
+  margin-bottom: 5%;
+}
+.main {
+  margin-bottom: 50px;
+}
+.col {
+  flex: 1;
+}
+
+.col1 {
+  text-align: center;
+}
+
+.col h1 {
+  font-size: 35px;
+  margin-bottom: 7%;
+  color: gray;
+  position: relative;
+  bottom: 25%;
+}
+
+.col h2 {
+  font-size: 30px;
+  text-shadow: 1px 1px #b1a754;
+  color: #e1d468;
+  font-style: bold;
+  position: relative;
+  bottom: 25%;
+}
+
+.sub-header {
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3%;
+  color: gray;
+}
+
+.content {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.pic img {
+  height: 450px;
+  width: 295px;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+}
+
+.pic1 img {
+  height: 400px;
+  width: 295px;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+}
+
+.article {
+  text-align: justify;
+  box-sizing: border-box;
+  flex-basis: 70%;
+}
+
+.article p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.text2 {
+  font-size: 20px;
+  margin: 0 7%;
+  text-align: justify;
+  margin-top: -2%;
+}
+#t2 {
+  margin-left: 7%;
+}
+#tt {
+  font-size: 18px;
+}
+#smalltext {
+  margin: 0 35%;
+  margin-bottom: 3%;
+}
+#alt1 {
+  order: 2;
+}
+
+#alt2 {
+  order: 1;
+}
+.btn {
+  margin-top: 5%;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  background-color: white;
+  border: 2px solid #e1d468;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #e1d468;
+  color: rgb(255, 255, 255);
+}
+
+.line {
+  height: 1px;
+  background-color: gray;
+  border: none;
+  margin: 4% 8% 4% 8%;
+}
+
+.socials {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sm {
+  height: 30px;
+  width: 30px;
+  margin: 0 1%;
+  position: relative;
+  bottom: 0;
+  transition: 0.3s ease;
+}
+
+.sm:hover {
+  bottom: 10px;
+}
+
+.t {
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+.career {
+  margin-top: 18%;
+  text-align: center;
+}
+
+.port-stats {
+  margin: 0 7%;
+  margin-bottom: 4%;
+  margin-top: -2%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+}
+.juve-stats {
+  margin: 0 7%;
+  margin-top: -2%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+}
+.rma-stats {
+  margin: 1% 7%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.mun-stats {
+  margin: 1% 7%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.spl-stats {
+  margin: 1% 7%;
+  border: 3px solid #e1d468;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.dropdown {
+  display: none;
+  width: 98%;
+  justify-content: space-around;
+  color: gray;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maxmin {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.dropdown2 {
+  display: none;
+  width: 98%;
+  justify-content: space-around;
+  color: gray;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maxmin2 {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.dropdown3 {
+  display: none;
+  width: 98%;
+  justify-content: space-around;
+  color: gray;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maxmin3 {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.dropdown4 {
+  display: none;
+  width: 98%;
+  justify-content: space-around;
+  color: gray;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maxmin4 {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dropdown5 {
+  display: none;
+  width: 98%;
+  justify-content: space-around;
+  color: gray;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maxmin5 {
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.show {
+  display: flex;
+}
+
+.h {
+  display: inline-block;
+  margin-left: 2%;
+  color: black;
+}
+
+.teamcrest img {
+  height: 100px;
+  width: auto;
+}
+
+.career-overview {
+  text-align: center;
+}
+
+.src {
+  text-align: left;
+}
+
+.src a {
+  text-decoration: none;
+  color: #000000;
+}
