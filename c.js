@@ -1,3 +1,4 @@
+let stats_div = document.getElementById("stats");
 let counters = document.querySelectorAll(".counter");
 const minmax_span = document.querySelector(".maxmin");
 const dropdown_p = document.querySelector(".dropdown");
@@ -21,41 +22,25 @@ const repositionPage = () => {
     dropdown4_p.classList.add("show");
     minmax4_span.innerText = "−";
     showing4 = true;
-    window.scrollTo({
-      top: 1010,
-      left: 0,
-      behavior: "smooth",
-    });
+    stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   if (showStat === "MUN") {
     dropdown3_p.classList.add("show");
     minmax3_span.innerText = "−";
     showing3 = true;
-    window.scrollTo({
-      top: 1010,
-      left: 0,
-      behavior: "smooth",
-    });
+    stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   if (showStat === "RMA") {
     dropdown2_p.classList.add("show");
     minmax2_span.innerText = "−";
     showing2 = true;
-    window.scrollTo({
-      top: 1010,
-      left: 0,
-      behavior: "smooth",
-    });
+    stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   if (showStat === "JUV") {
     dropdown_p.classList.add("show");
     minmax_span.innerText = "−";
     showing = true;
-    window.scrollTo({
-      top: 1010,
-      left: 0,
-      behavior: "smooth",
-    });
+    stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   localStorage.setItem("btnClicked", 0);
 };
