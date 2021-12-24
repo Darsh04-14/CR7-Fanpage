@@ -22,25 +22,57 @@ const repositionPage = () => {
     dropdown4_p.classList.add("show");
     minmax4_span.innerText = "−";
     showing4 = true;
+<<<<<<< HEAD
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
+=======
+    window.scrollTo({
+      top: 1010,
+      left: 0,
+      behavior: "smooth",
+    });
+>>>>>>> a42791da3d691ec3f72ff85097ee547180828f56
   }
   if (showStat === "MUN") {
     dropdown3_p.classList.add("show");
     minmax3_span.innerText = "−";
     showing3 = true;
+<<<<<<< HEAD
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
+=======
+    window.scrollTo({
+      top: 1010,
+      left: 0,
+      behavior: "smooth",
+    });
+>>>>>>> a42791da3d691ec3f72ff85097ee547180828f56
   }
   if (showStat === "RMA") {
     dropdown2_p.classList.add("show");
     minmax2_span.innerText = "−";
     showing2 = true;
+<<<<<<< HEAD
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
+=======
+    window.scrollTo({
+      top: 1010,
+      left: 0,
+      behavior: "smooth",
+    });
+>>>>>>> a42791da3d691ec3f72ff85097ee547180828f56
   }
   if (showStat === "JUV") {
     dropdown_p.classList.add("show");
     minmax_span.innerText = "−";
     showing = true;
+<<<<<<< HEAD
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
+=======
+    window.scrollTo({
+      top: 1010,
+      left: 0,
+      behavior: "smooth",
+    });
+>>>>>>> a42791da3d691ec3f72ff85097ee547180828f56
   }
   localStorage.setItem("btnClicked", 0);
 };
