@@ -20,25 +20,25 @@ const repositionPage = () => {
   let showStat = localStorage.getItem("btnClicked");
   if (showStat === "SPL") {
     dropdown4_p.classList.add("show");
-    minmax4_span.innerText = "−";
+    minmax4_span.innerText = "-";
     showing4 = true;
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   if (showStat === "MUN") {
     dropdown3_p.classList.add("show");
-    minmax3_span.innerText = "−";
+    minmax3_span.innerText = "-";
     showing3 = true;
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   if (showStat === "RMA") {
     dropdown2_p.classList.add("show");
-    minmax2_span.innerText = "−";
+    minmax2_span.innerText = "-";
     showing2 = true;
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
   if (showStat === "JUV") {
     dropdown_p.classList.add("show");
-    minmax_span.innerText = "−";
+    minmax_span.innerText = "-";
     showing = true;
     stats_div.scrollIntoView({ alignToTop: true, behavior: "smooth" });
   }
@@ -85,7 +85,7 @@ minmax_span.addEventListener("click", function () {
   console.log("clikc");
   if (showing === false) {
     dropdown_p.classList.add("show");
-    minmax_span.innerText = "−";
+    minmax_span.innerText = "-";
     showing = true;
   } else {
     dropdown_p.classList.remove("show");
@@ -97,7 +97,7 @@ minmax2_span.addEventListener("click", function () {
   console.log("clikc");
   if (showing2 === false) {
     dropdown2_p.classList.add("show");
-    minmax2_span.innerText = "−";
+    minmax2_span.innerText = "-";
     showing2 = true;
   } else {
     dropdown2_p.classList.remove("show");
@@ -109,7 +109,7 @@ minmax3_span.addEventListener("click", function () {
   console.log("clikc");
   if (showing3 === false) {
     dropdown3_p.classList.add("show");
-    minmax3_span.innerText = "−";
+    minmax3_span.innerText = "-";
     showing3 = true;
   } else {
     dropdown3_p.classList.remove("show");
@@ -121,7 +121,7 @@ minmax4_span.addEventListener("click", function () {
   console.log("clikc");
   if (showing4 === false) {
     dropdown4_p.classList.add("show");
-    minmax4_span.innerText = "−";
+    minmax4_span.innerText = "-";
     showing4 = true;
   } else {
     dropdown4_p.classList.remove("show");
@@ -133,7 +133,7 @@ minmax5_span.addEventListener("click", function () {
   console.log("clikc");
   if (showing5 === false) {
     dropdown5_p.classList.add("show");
-    minmax5_span.innerText = "−";
+    minmax5_span.innerText = "-";
     showing5 = true;
   } else {
     dropdown5_p.classList.remove("show");
